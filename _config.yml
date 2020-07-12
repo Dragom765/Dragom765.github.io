@@ -8,11 +8,12 @@
 # Site settings
 title: Ian Sibley | Software Engineer
 email: igsibley980@gmail.com
+greeting: Thanks for stopping by
 description: > # this means to ignore newlines until "baseurl:"
   A Computer Engineering graduate from Purdue University of May 2019,
   I've worked with software applications across the board, especially
-  Full Stack Development and general Application Development. This page
-  is going to document some of the noteable ones that I'm allowed to share.
+  Full Stack Development and general Application Development, but I'm
+  adding projects as I go on and learn/want to learn more things.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://isibley765.github.io" # the base hostname & protocol for your site
 github_username:  isibley765
