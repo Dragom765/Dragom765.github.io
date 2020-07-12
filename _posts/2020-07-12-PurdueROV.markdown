@@ -2,9 +2,16 @@
 layout: post
 title:  "Purdue IEEE ROV"
 brief:  "Designed underwater drones for the MATE competition"
-categories: node.js ros flask python electron react raspi
+categories:
+  - Electron
+  - Flask
+  - Node.js
+  - Python
+  - Raspberry Pi
+  - React
+  - ROS
 previews:
-    - image: team-photo_x11.png
+    - team-photo_x11.png
 titleImage: X11 No Background.png
 ---
 

@@ -14,8 +14,7 @@ layout: default
     {{ content }}
   </div>
 
-  {% for picture in page.previews %}
-  {% assign image = picture.image %}
+  {% for image in page.previews %}
     <img src="{{site.baseurl}}/images/{{page.title}}/{{image}}" />
   {% endfor %}
 

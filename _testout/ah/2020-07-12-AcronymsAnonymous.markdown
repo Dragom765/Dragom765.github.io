@@ -3,16 +3,15 @@ layout: post
 title:  "Acronym Aid Bot"
 brief:  "An acronym assistance Slack bot"
 categories:
-  - Ajax
-  - Bootstrap
-  - Expressjs
-  - jQuery
   - MySQL
+  - Expressjs
   - Node.js
-  - Slack API
+  - jQuery
+  - Bootstrap
+  - Ajax
 source: https://github.com/isibley765/planner-project
 previews:
-    - DisplayInfo.png
+    - image: DisplayInfo.png
 titleImage: AcronymsAnonymousIcon.png
 ---
 

@@ -3,12 +3,12 @@ layout: post
 title:  "Planner Project"
 brief:  "A basic Full-Stack development intro"
 categories:
-  - Ajax
-  - Bootstrap
-  - Expressjs
-  - jQuery
   - MySQL
+  - Expressjs
   - Node.js
+  - jQuery
+  - Bootstrap
+  - Ajax
 source: https://github.com/isibley765/planner-project
 titleImage: tcoffeecode.jpg
 ---

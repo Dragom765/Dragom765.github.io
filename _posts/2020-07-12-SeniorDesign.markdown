@@ -2,10 +2,17 @@
 layout: post
 title:  "Senior Design"
 brief:  "A custom Smart Lock concept, using Facial Recognition"
-categories: socketio raspi msp432 face_recognition python bluetooth
+categories:
+  - Bluetooth
+  - C
+  - Face Recognition
+  - Python
+  - Raspberry Pi
+  - Socketio
+  - TI MSP-432
 source: https://github.com/isibley765/ECE-477-Senior-Design
 previews:
-    - image: CadHousings.png
+    - CadHousings.png
 ---
 
 My forked copy of my old team's Senior Design project.

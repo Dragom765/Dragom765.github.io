@@ -2,10 +2,12 @@
 layout: post
 title:  "FaceYourPeers"
 brief:  "A simple facial recognition project for my cousin"
-categories: face_recognition python
+categories:
+  - Face Recognition
+  - Python
 source: https://github.com/isibley765/FaceYourPeers
 previews:
-    - image: identifier.gif
+    - identifier.gif
 ---
 
 This project was a simple implementation of a facial recognition library I've used in classes twice before.

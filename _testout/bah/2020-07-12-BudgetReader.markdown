@@ -5,8 +5,8 @@ brief:  "A budget app project to learn Heroku"
 categories:
   - Heroku
   - Node.js
-  - Posgresql
   - Redis
+  - Posgresql
 source: https://github.com/isibley765/BudgetReader
 previews:
     - BudgetReader_Overall.png
@@ -17,7 +17,7 @@ This repository is for a project I'm doing personally to learn Heroku.
 
 Picking up Redis along the way, I'll be adding it as a layer between the web page
 and the Posgresql instance for traffic managing practice, and learning Redis in
-general. I've gone through the documentation; now I just need to apply it live.
+general.
 
 I'll be touching on this more later, but life picked up after I started getting the
 Posgresql instance connected to Nodejs, and all hosting properly on a basic

@@ -7,25 +7,30 @@ layout: default
   <h1 class="page-heading">Repositories</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign sortedPosts = site.posts | sort: 'title' %}
+    {% for post in sortedPosts %}
       <li>
-        <span class="post-meta">{{ post.brief }}</span>
 
-        <h2>
-          {% if post.titleImage %}
+        <h2 style="margin:0">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {% if post.titleImage %}
                 <img class="post-link-icon" src="{{site.baseurl}}/images/{{post.title}}/{{post.titleImage}}" />
-          {% else %}
-            <a class="post-link post-link-no-icon" href="{{ post.url | prepend: site.baseurl }}">
-          {% endif %}
+              {% else %}
+                <span class="post-link-no-icon" ></span>
+              {% endif %}
             {{ post.title }}</a>
         </h2>
+        <span class="post-meta">{{ post.brief }}</span>
+        <p class="post-meta">{{ post.categories | join: " | " }}</p>
+        <hr>
       </li>
     {% endfor %}
   </ul>
 
-  {% for folder in site.images %}
-    <div>{{folder}}</div>
-  {% endfor %}
+  <ul class="post-list">
+    {% for folder in site.testout %}
+      <li>{{folder}}</li>
+    {% endfor %}
+  </ul>
 
 </div>
