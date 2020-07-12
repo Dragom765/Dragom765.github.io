@@ -8,7 +8,6 @@ permalink: /about/
   If you'd like to contact me about any of my work, use my email at the
   bottom of this page.
 
-
   As far as what's generally linked here, you'll find a lot of Node.js in my
   personal projects and school clubs. I'm currently keen on future projects that
   lean into the world of Data Science & Analytics, so you may see new additions
