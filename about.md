@@ -14,7 +14,7 @@ permalink: /about/
   
   In addition, my college courses were generally focused in C/C++, Java,
   and Python. They covered anything from algorithms, data structures, and OOP,
-  to microcontroller coding, AI, and general Software Engineering practices.<br>There are
+  to microcontroller coding, AI, and general Software Engineering practices. There are
   one or two school projects (like Facial Morphing, or my simple trained Keras network
   to find face points) that I may recreate and host to show off, but for now I belive
   just my Senior Design project is linked -- though that does use some facial
