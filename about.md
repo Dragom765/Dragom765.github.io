@@ -4,12 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+  This page is to document some of my work and capabilities.
+  If you'd like to contact me about any of my work, use my email at the
+  bottom of this page.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+  As far as what's generally linked here, you'll find a lot of Node.js in my
+  personal projects and school clubs. I'm currently a Software Engineer
+  with Flooid in a Java Application Development role, though that's proprietary
+  work.
+  
+  In addition, my college courses were generally focused in C/C++, Java,
+  and Python. They covered anything from algorithms, data structures, and OOP,
+  to microcontroller coding, AI, and general Software Engineering practices.
+
+  I've also done a few minor things with facial recognition, and plan on doing more.
+
+This page was made to run with Jekyll [jekyllrb.com](http://jekyllrb.com/)
