@@ -4,14 +4,19 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="name headline">{% if page.titleImage %}<img class="post-title-icon"  src="{{site.baseurl}}/images/{{page.title}}/{{page.titleImage}}" />{% endif %}{{ page.title }}</h1>
     <p class="post-meta">{{ page.brief }}{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    {% if page.source %}<p class="post-repoLink"><u><a href="{{ page.source }}">Find the source code here</a></u></p>{% endif %}
   </header>
+  
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    
-    <p class="post-repoLink">{% if page.source %}Find the source code at: {{ page.source }}{% endif %}</p>
   </div>
+
+  {% for picture in page.previews %}
+  {% assign image = picture.image %}
+    <img src="{{site.baseurl}}/images/{{page.title}}/{{image}}" />
+  {% endfor %}
 
 </article>

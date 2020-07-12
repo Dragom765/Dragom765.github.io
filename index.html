@@ -12,10 +12,20 @@ layout: default
         <span class="post-meta">{{ post.brief }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% if post.titleImage %}
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <img class="post-link-icon" src="{{site.baseurl}}/images/{{post.title}}/{{post.titleImage}}" />
+          {% else %}
+            <a class="post-link post-link-no-icon" href="{{ post.url | prepend: site.baseurl }}">
+          {% endif %}
+            {{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
+
+  {% for folder in site.images %}
+    <div>{{folder}}</div>
+  {% endfor %}
 
 </div>
