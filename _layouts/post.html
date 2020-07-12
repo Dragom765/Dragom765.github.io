@@ -10,6 +10,8 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+    
+    <p class="post-repoLink">{% if page.author %}Find the source code at: {{ page.source }}</p>
   </div>
 
 </article>

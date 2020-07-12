@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "BudgetReader"
 brief:  "A budget app project to learn Heroku"
 categories: heroku node.js redis posgresql
+source: https://github.com/isibley765/BudgetReader
 ---
-Just trying to get this to work, for now.
+
+
