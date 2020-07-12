@@ -6,16 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Ian Sibley | Software Engineer
+email: igsibley980@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A Computer Engineering graduate from Purdue University of May 2019,
+  I've worked with software applications across the board, especially
+  Full Stack Development and general Application Development. This page
+  is going to document some of the noteable ones that I'm allowed to share.
+
+  You'll find a lot of Node.js in my personal projects and school clubs,
+  though I'm currently a Software Engineer with Flooid in a Java Application
+  Development role.
+  
+  In addition, my courses were generally focused in C/C++, Java, and Python,
+  covering anything from algorithms, data structures, and OOP,
+  to microcontrollers, AI, and general Software Engineering practices.
+  
+  I'm currently keen on future projects that lean into the world of
+  Data Science & Analytics, so you may see new additions in that area in the
+  next few years. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://isibley765.github.io" # the base hostname & protocol for your site
+github_username:  isibley765
 
 # Build settings
 markdown: kramdown
